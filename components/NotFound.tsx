@@ -15,7 +15,7 @@ const NotFound = memo(({ searchTerm }: NotFoundProps) => {
           Pokémon Not Found
         </h2>
         <p className="text-gray-600 mb-4">
-          No Pokémon found with the name <span className="font-semibold">"{searchTerm}"</span>
+          No Pokémon found with the name <span className="font-semibold">&ldquo;{searchTerm}&rdquo;</span>
         </p>
         <p className="text-sm text-gray-500">
           Try searching for another Pokémon. Make sure the spelling is correct!
